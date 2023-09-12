@@ -1,0 +1,701 @@
+!RANCID-CONTENT-TYPE: cisco
+!
+!Chassis type: WS-C3560G-48PS
+!CPU: PowerPC405
+!
+!Memory: main 131072K
+!Serial Number: FOC1136Y4ND
+!Model revision number           : F0
+!Model number                    : WS-C3560G-48PS-S
+!Motherboard assembly number     : 73-10212-04
+!Motherboard serial number       : FOC113645NX
+!Motherboard revision number     : B0
+!Power supply part number        : 341-0108-03
+!Power supply serial number      : DCA1134A0TA
+!
+!Processor ID: FOC1136Y4ND
+!
+!FAN: FAN is OK
+!
+!Image: Software: C3560-IPSERVICESK9-M, 12.2(55)SE, RELEASE SOFTWARE (fc2)
+!Image: Compiled: Sat 07-Aug-10 22:26 by prod_rel_team
+!Image: flash:c3560-ipservicesk9-mz.122-55.SE/c3560-ipservicesk9-mz.122-55.SE.bin
+!
+!BOOTLDR: Version 12.2(44)SE5, RELEASE SOFTWARE (fc1)
+!
+!
+!Variable: BOOT path-list      : flash:c3560-ipservicesk9-mz.122-55.SE/c3560-ipservicesk9-mz.122-55.SE.bin
+!Variable: Config file         : flash:/config.text
+!Variable: Private Config file : flash:/private-config.text
+!Variable: Enable Break        : no
+!Variable: Manual Boot         : no
+!Variable: HELPER path-list    : 
+!Variable: Auto upgrade        : yes
+!Variable: Auto upgrade path   : 
+!Variable: NVRAM/Config file
+!Variable:       buffer size:   524288
+!Variable: Timeout for Config
+!Variable:           Download:    0 seconds
+!Variable: Config Download 
+!Variable:        via DHCP:       disabled (next boot: disabled)
+!
+!Flash: Directory of flash:/
+!Flash:        drwx         192   Mar 8 1993 01:22:23 +01:00  c3560-ipservicesk9-mz.122-25.SEE2
+!Flash:        drwx         192  Apr 17 1994 11:11:32 +02:00  c3560-ipservicesk9-mz.122-55.SE
+!Flash:        -rwx       11631  Feb 11 2022 11:36:18 +01:00  config.text
+!Flash:        -rwx         111   Mar 8 1993 01:22:23 +01:00  info
+!Flash:        -rwx        3834  Feb 11 2022 11:36:18 +01:00  private-config.text
+!Flash:        -rwx                                           vlan.dat
+!Flash: 32514048 bytes total (6 MB free)
+!
+!Flash: nvram: Directory of nvram:/
+!Flash: nvram: -rw-         589                    <no date>  IOS-Self-Sig#3232.cer
+!Flash: nvram: -rw-         588                    <no date>  IOS-Self-Sig#3233.cer
+!Flash: nvram: -rw-         657                    <no date>  SW_RZ_TESTwl#6501.cer
+!Flash: nvram: -rw-           0                    <no date>  ifIndex-table
+!Flash: nvram: ----          36                    <no date>  persistent-data
+!Flash: nvram: ----        3834                    <no date>  private-config
+!Flash: nvram: -rw-       11631                    <no date>  startup-config
+!Flash: nvram: 512 KB total (96% free)
+!
+!
+!NAME: "1",                     DESCR: "WS-C3560G-48PS"
+!PID: WS-C3560G-48PS-S
+!VID: V05
+!SN: FOC1136Y4ND
+!NAME: "WS-C3560G-48PS - Power Supply 0", DESCR: "WS-C3560G-48PS - Power Supply 0"
+!SN: DCA1134A0TA
+!NAME: "WS-C3560G-48PS - Fan 0", DESCR: "WS-C3560G-48PS - Fan 0"
+!NAME: "WS-C3560G-48PS - Sensor 0", DESCR: "WS-C3560G-48PS - Sensor 0"
+!NAME: "WS-C3560G-48PS - Fixed Module 0", DESCR: "WS-C3560G-48PS - Fixed Module 0"
+!NAME: "GigabitEthernet0/49 Container", DESCR: "GigabitEthernet Container"
+!NAME: "GigabitEthernet0/50 Container", DESCR: "GigabitEthernet Container"
+!NAME: "GigabitEthernet0/51 Container", DESCR: "GigabitEthernet Container"
+!NAME: "GigabitEthernet0/52 Container", DESCR: "GigabitEthernet Container"
+!NAME: "GigabitEthernet0/1",    DESCR: "GigabitEthernet0/1"
+!NAME: "GigabitEthernet0/2",    DESCR: "GigabitEthernet0/2"
+!NAME: "GigabitEthernet0/3",    DESCR: "GigabitEthernet0/3"
+!NAME: "GigabitEthernet0/4",    DESCR: "GigabitEthernet0/4"
+!NAME: "GigabitEthernet0/5",    DESCR: "GigabitEthernet0/5"
+!NAME: "GigabitEthernet0/6",    DESCR: "GigabitEthernet0/6"
+!NAME: "GigabitEthernet0/7",    DESCR: "GigabitEthernet0/7"
+!NAME: "GigabitEthernet0/8",    DESCR: "GigabitEthernet0/8"
+!NAME: "GigabitEthernet0/9",    DESCR: "GigabitEthernet0/9"
+!NAME: "GigabitEthernet0/10",   DESCR: "GigabitEthernet0/10"
+!NAME: "GigabitEthernet0/11",   DESCR: "GigabitEthernet0/11"
+!NAME: "GigabitEthernet0/12",   DESCR: "GigabitEthernet0/12"
+!NAME: "GigabitEthernet0/13",   DESCR: "GigabitEthernet0/13"
+!NAME: "GigabitEthernet0/14",   DESCR: "GigabitEthernet0/14"
+!NAME: "GigabitEthernet0/15",   DESCR: "GigabitEthernet0/15"
+!NAME: "GigabitEthernet0/16",   DESCR: "GigabitEthernet0/16"
+!NAME: "GigabitEthernet0/17",   DESCR: "GigabitEthernet0/17"
+!NAME: "GigabitEthernet0/18",   DESCR: "GigabitEthernet0/18"
+!NAME: "GigabitEthernet0/19",   DESCR: "GigabitEthernet0/19"
+!NAME: "GigabitEthernet0/20",   DESCR: "GigabitEthernet0/20"
+!NAME: "GigabitEthernet0/21",   DESCR: "GigabitEthernet0/21"
+!NAME: "GigabitEthernet0/22",   DESCR: "GigabitEthernet0/22"
+!NAME: "GigabitEthernet0/23",   DESCR: "GigabitEthernet0/23"
+!NAME: "GigabitEthernet0/24",   DESCR: "GigabitEthernet0/24"
+!NAME: "GigabitEthernet0/25",   DESCR: "GigabitEthernet0/25"
+!NAME: "GigabitEthernet0/26",   DESCR: "GigabitEthernet0/26"
+!NAME: "GigabitEthernet0/27",   DESCR: "GigabitEthernet0/27"
+!NAME: "GigabitEthernet0/28",   DESCR: "GigabitEthernet0/28"
+!NAME: "GigabitEthernet0/29",   DESCR: "GigabitEthernet0/29"
+!NAME: "GigabitEthernet0/30",   DESCR: "GigabitEthernet0/30"
+!NAME: "GigabitEthernet0/31",   DESCR: "GigabitEthernet0/31"
+!NAME: "GigabitEthernet0/32",   DESCR: "GigabitEthernet0/32"
+!NAME: "GigabitEthernet0/33",   DESCR: "GigabitEthernet0/33"
+!NAME: "GigabitEthernet0/34",   DESCR: "GigabitEthernet0/34"
+!NAME: "GigabitEthernet0/35",   DESCR: "GigabitEthernet0/35"
+!NAME: "GigabitEthernet0/36",   DESCR: "GigabitEthernet0/36"
+!NAME: "GigabitEthernet0/37",   DESCR: "GigabitEthernet0/37"
+!NAME: "GigabitEthernet0/38",   DESCR: "GigabitEthernet0/38"
+!NAME: "GigabitEthernet0/39",   DESCR: "GigabitEthernet0/39"
+!NAME: "GigabitEthernet0/40",   DESCR: "GigabitEthernet0/40"
+!NAME: "GigabitEthernet0/41",   DESCR: "GigabitEthernet0/41"
+!NAME: "GigabitEthernet0/42",   DESCR: "GigabitEthernet0/42"
+!NAME: "GigabitEthernet0/43",   DESCR: "GigabitEthernet0/43"
+!NAME: "GigabitEthernet0/44",   DESCR: "GigabitEthernet0/44"
+!NAME: "GigabitEthernet0/45",   DESCR: "GigabitEthernet0/45"
+!NAME: "GigabitEthernet0/46",   DESCR: "GigabitEthernet0/46"
+!NAME: "GigabitEthernet0/47",   DESCR: "GigabitEthernet0/47"
+!NAME: "GigabitEthernet0/48",   DESCR: "GigabitEthernet0/48"
+!
+!VTP: VTP Version capable             : 1 to 3
+!VTP: VTP version running             : 1
+!VTP: VTP Domain Name                 : WLW
+!VTP: VTP Pruning Mode                : Disabled
+!VTP: VTP Traps Generation            : Disabled
+!VTP: Device ID                       : 001d.a1f1.cd00
+!VTP: Feature VLAN:
+!VTP: --------------
+!VTP: VTP Operating Mode                : Transparent
+!VTP: Maximum VLANs supported locally   : 1005
+!VTP: Number of existing VLANs          : 27
+!VTP: Configuration Revision            : 0
+!VTP: MD5 digest                        : 0x1C 0x52 0xF9 0xD2 0xA8 0x9E 0x61 0x0E 
+!VTP:                                     0x32 0xD6 0xE3 0x16 0x6B 0x07 0x64 0xD4 
+!
+!DOT1x: Sysauthcontrol             Disabled
+!DOT1x: Dot1x Protocol Version            3
+!
+!VLAN: VLAN Name                             Status    Ports
+!VLAN: ---- -------------------------------- --------- -------------------------------
+!VLAN: 1    default                          active    Gi0/49, Gi0/50, Gi0/51, Gi0/52
+!VLAN: 3    backyard                         active    Gi0/39, Gi0/41
+!VLAN: 10   Hausnetz                         active    
+!VLAN: 12   devFY                            active    
+!VLAN: 13   devBY                            active    
+!VLAN: 14   WLAN                             active    
+!VLAN: 15   dial_in                          active    
+!VLAN: 17   non_Standard                     active    Gi0/12
+!VLAN: 18   ILO_Net                          active    
+!VLAN: 19   infoware                         active    
+!VLAN: 20   Voice                            active    Gi0/2, Gi0/4, Gi0/8, Gi0/10, Gi0/11, Gi0/14, Gi0/16, Gi0/18, Gi0/20, Gi0/22, Gi0/24
+!VLAN:                                                 Gi0/26, Gi0/28, Gi0/30, Gi0/32, Gi0/34, Gi0/36, Gi0/38, Gi0/40, Gi0/42, Gi0/44
+!VLAN:                                                 Gi0/46
+!VLAN: 22   VPN_DMZ                          active    
+!VLAN: 23   VLAN0023                         active    
+!VLAN: 27   WebDevClient                     active    Gi0/3, Gi0/5, Gi0/13, Gi0/19, Gi0/27, Gi0/33
+!VLAN: 31   hhcis                            active    
+!VLAN: 36   hhclient                         active    Gi0/1, Gi0/7, Gi0/9, Gi0/15, Gi0/17, Gi0/21, Gi0/23, Gi0/25, Gi0/29, Gi0/31, Gi0/35
+!VLAN:                                                 Gi0/37, Gi0/43, Gi0/45, Gi0/47
+!VLAN: 39   hhdmz                            active    
+!VLAN: 55   client                           active    
+!VLAN: 58   company                          active    
+!VLAN: 100  vpngatewayhh                     active    
+!VLAN: 149  veeambackupnet                   active    
+!VLAN: 181  wlwtrans                         active    
+!VLAN: 182  colttrans                        active    
+!VLAN: 1002 fddi-default                     act/unsup 
+!VLAN: 1003 token-ring-default               act/unsup 
+!VLAN: 1004 fddinet-default                  act/unsup 
+!VLAN: 1005 trnet-default                    act/unsup 
+!VLAN: VLAN Type  SAID       MTU   Parent RingNo BridgeNo Stp  BrdgMode Trans1 Trans2
+!VLAN: ---- ----- ---------- ----- ------ ------ -------- ---- -------- ------ ------
+!VLAN: 1    enet  100001     1500  -      -      -        -    -        0      0   
+!VLAN: 3    enet  100003     1500  -      -      -        -    -        0      0   
+!VLAN: 10   enet  100010     1500  -      -      -        -    -        0      0   
+!VLAN: 12   enet  100012     1500  -      -      -        -    -        0      0   
+!VLAN: 13   enet  100013     1500  -      -      -        -    -        0      0   
+!VLAN: 14   enet  100014     1500  -      -      -        -    -        0      0   
+!VLAN: 15   enet  100015     1500  -      -      -        -    -        0      0   
+!VLAN: 17   enet  100017     1500  -      -      -        -    -        0      0   
+!VLAN: 18   enet  100018     1500  -      -      -        -    -        0      0   
+!VLAN: 19   enet  100019     1500  -      -      -        -    -        0      0   
+!VLAN: 20   enet  100020     1500  -      -      -        -    -        0      0   
+!VLAN: 22   enet  100022     1500  -      -      -        -    -        0      0   
+!VLAN: 23   enet  100023     1500  -      -      -        -    -        0      0   
+!VLAN: 27   enet  100027     1500  -      -      -        -    -        0      0   
+!VLAN: 31   enet  100031     1500  -      -      -        -    -        0      0   
+!VLAN: 36   enet  100036     1500  -      -      -        -    -        0      0   
+!VLAN: 39   enet  100039     1500  -      -      -        -    -        0      0   
+!VLAN: 55   enet  100055     1500  -      -      -        -    -        0      0   
+!VLAN: 58   enet  100058     1500  -      -      -        -    -        0      0   
+!VLAN: 100  enet  100100     1500  -      -      -        -    -        0      0   
+!VLAN: 149  enet  100149     1500  -      -      -        -    -        0      0   
+!VLAN: 181  enet  100181     1500  -      -      -        -    -        0      0   
+!VLAN: 182  enet  100182     1500  -      -      -        -    -        0      0   
+!VLAN: 1002 fddi  101002     1500  -      -      -        -    -        0      0   
+!VLAN: 1003 tr    101003     1500  -      -      -        -    -        0      0   
+!VLAN: 1004 fdnet 101004     1500  -      -      -        ieee -        0      0   
+!VLAN: 1005 trnet 101005     1500  -      -      -        ibm  -        0      0   
+!VLAN: Remote SPAN VLANs
+!VLAN: ------------------------------------------------------------------------------
+!VLAN: Primary Secondary Type              Ports
+!VLAN: ------- --------- ----------------- ------------------------------------------
+!
+!SDM Template: desktop default
+!
+!MTU: 1500
+!MTU-Jumbo: 1500
+!MTU-Routing: 1500
+!
+!
+config-register 0xF
+!
+version 12.2
+no service pad
+service timestamps debug datetime
+service timestamps log datetime
+service password-encryption
+service sequence-numbers
+!
+hostname sw_abc_r2
+!
+boot-start-marker
+boot-end-marker
+!
+enable secret 5 $1$q1KY$yOqZE65cn78sAkjY4OtHS/
+!
+username cw2k secret 5 $1$CfLF$qLXbDHAaNrea9nl39DtxQ0
+username koltmann privilege 15 secret 5 $1$xG26$/xRY2FN99tl0HKEc1/BKM.
+username marwin secret 5 $1$d84y$OkRTiP5EN/2BtHF8PdlkR/
+username mcshh privilege 15 secret 5 $1$uBgu$y.U1uLBSAcTPpgOBzd0ML.
+username mge privilege 15 secret 5 $1$.YQA$ezAJ1T47CZISQSSjrxHRj0
+username sadmin secret 5 $1$/f/H$51caZe4qMainoFp0YZhXD1
+!
+aaa new-model
+!
+aaa authentication login default local line
+!
+aaa session-id common
+clock timezone CET 1
+clock summer-time CEST recurring last Sun Mar 3:00 last Sun Oct 2:00
+system mtu routing 1500
+vtp domain WLW
+vtp mode transparent
+no ip domain-lookup
+ip domain-name wlw.de
+!
+mls qos map cos-dscp 0 8 16 26 32 46 48 56
+mls qos srr-queue input bandwidth 90 10
+mls qos srr-queue input threshold 1 8 16
+mls qos srr-queue input threshold 2 34 66
+mls qos srr-queue input buffers 67 33 
+mls qos srr-queue input cos-map queue 1 threshold 2 1
+mls qos srr-queue input cos-map queue 1 threshold 3 0
+mls qos srr-queue input cos-map queue 2 threshold 1 2
+mls qos srr-queue input cos-map queue 2 threshold 2 4 6 7
+mls qos srr-queue input cos-map queue 2 threshold 3 3 5
+mls qos srr-queue input dscp-map queue 1 threshold 2 9 10 11 12 13 14 15
+mls qos srr-queue input dscp-map queue 1 threshold 3 0 1 2 3 4 5 6 7
+mls qos srr-queue input dscp-map queue 1 threshold 3 32
+mls qos srr-queue input dscp-map queue 2 threshold 1 16 17 18 19 20 21 22 23
+mls qos srr-queue input dscp-map queue 2 threshold 2 33 34 35 36 37 38 39 48
+mls qos srr-queue input dscp-map queue 2 threshold 2 49 50 51 52 53 54 55 56
+mls qos srr-queue input dscp-map queue 2 threshold 2 57 58 59 60 61 62 63
+mls qos srr-queue input dscp-map queue 2 threshold 3 24 25 26 27 28 29 30 31
+mls qos srr-queue input dscp-map queue 2 threshold 3 40 41 42 43 44 45 46 47
+mls qos srr-queue output cos-map queue 1 threshold 3 5
+mls qos srr-queue output cos-map queue 2 threshold 3 3 6 7
+mls qos srr-queue output cos-map queue 3 threshold 3 2 4
+mls qos srr-queue output cos-map queue 4 threshold 2 1
+mls qos srr-queue output cos-map queue 4 threshold 3 0
+mls qos srr-queue output dscp-map queue 1 threshold 3 40 41 42 43 44 45 46 47
+mls qos srr-queue output dscp-map queue 2 threshold 3 24 25 26 27 28 29 30 31
+mls qos srr-queue output dscp-map queue 2 threshold 3 48 49 50 51 52 53 54 55
+mls qos srr-queue output dscp-map queue 2 threshold 3 56 57 58 59 60 61 62 63
+mls qos srr-queue output dscp-map queue 3 threshold 3 16 17 18 19 20 21 22 23
+mls qos srr-queue output dscp-map queue 3 threshold 3 32 33 34 35 36 37 38 39
+mls qos srr-queue output dscp-map queue 4 threshold 1 8
+mls qos srr-queue output dscp-map queue 4 threshold 2 9 10 11 12 13 14 15
+mls qos srr-queue output dscp-map queue 4 threshold 3 0 1 2 3 4 5 6 7
+mls qos queue-set output 1 threshold 1 138 138 92 138
+mls qos queue-set output 1 threshold 2 138 138 92 400
+mls qos queue-set output 1 threshold 3 36 77 100 318
+mls qos queue-set output 1 threshold 4 20 50 67 400
+mls qos queue-set output 2 threshold 1 149 149 100 149
+mls qos queue-set output 2 threshold 2 118 118 100 235
+mls qos queue-set output 2 threshold 3 41 68 100 272
+mls qos queue-set output 2 threshold 4 42 72 100 242
+mls qos queue-set output 1 buffers 10 10 26 54
+mls qos queue-set output 2 buffers 16 6 17 61
+!
+crypto pki trustpoint TP-self-signed-2716978432
+ enrollment selfsigned
+ subject-name cn=IOS-Self-Signed-Certificate-2716978432
+ revocation-check none
+ rsakeypair TP-self-signed-2716978432
+!
+crypto pki certificate chain TP-self-signed-2716978432
+ certificate self-signed 01
+  30820248 308201B1 A0030201 02020101 300D0609 2A864886 F70D0101 04050030 
+  31312F30 2D060355 04031326 494F532D 53656C66 2D536967 6E65642D 43657274 
+  69666963 6174652D 32373136 39373834 3332301E 170D3933 30333031 30303033 
+  32305A17 0D323030 31303130 30303030 305A3031 312F302D 06035504 03132649 
+  4F532D53 656C662D 5369676E 65642D43 65727469 66696361 74652D32 37313639 
+  37383433 3230819F 300D0609 2A864886 F70D0101 01050003 818D0030 81890281 
+  8100C61C B16B8C1E 53A7C1BC F30A7196 3CC7CB89 A57B1D26 8991CCE2 0B6C1D15 
+  622E5A9F F1C282C8 CA5E0863 6F657016 87F61F1D 1C03F3F5 B521EE5B EF819F12 
+  D3EAD6AD 515AC1C6 353ED2F5 C938AEC9 85DDAC4F CC853562 4B6168A5 C00C5F0B 
+  2ECED695 622F56C0 DED05F36 4FFF5F06 90D07006 22F8B912 D8820DCA 3F158EFF 
+  43190203 010001A3 70306E30 0F060355 1D130101 FF040530 030101FF 301B0603 
+  551D1104 14301282 1073775F 6162635F 72322E77 6C772E64 65301F06 03551D23 
+  04183016 8014A40D 5F6B0A58 AA36B2A4 7F8FD0BD 87968DA7 F8CB301D 0603551D 
+  0E041604 14A40D5F 6B0A58AA 36B2A47F 8FD0BD87 968DA7F8 CB300D06 092A8648 
+  86F70D01 01040500 03818100 99FBCBA6 CB4E4E40 7CABFD4C 0A38C311 E9F1A03C 
+  880FF1DD 502C57CB 3FF9DD02 F9FDA20F 46429848 AC4DCBCA A6333535 9675D8CF 
+  6B444368 D20B6C39 DDF813E9 3A574315 E5FC941E A58BB73A E30019A8 E65EC612 
+  211D4491 E501A4B4 00E4F17B 85AA8134 F8AFB8C0 47624FD1 5B7CD68D 4647031E 
+  C1E44E40 5B57B020 9D30460D
+  quit
+auto qos srnd4
+!
+spanning-tree mode rapid-pvst
+spanning-tree portfast default
+spanning-tree portfast bpduguard default
+no spanning-tree optimize bpdu transmission
+spanning-tree extend system-id
+!
+vlan internal allocation policy ascending
+!
+vlan 3
+ name backyard
+!
+vlan 10
+ name Hausnetz
+!
+vlan 12
+ name devFY
+!
+vlan 13
+ name devBY
+!
+vlan 14
+ name WLAN
+!
+vlan 15
+ name dial_in
+!
+vlan 17
+ name non_Standard
+!
+vlan 18
+ name ILO_Net
+!
+vlan 19
+ name infoware
+!
+vlan 20
+ name Voice
+!
+vlan 22
+ name VPN_DMZ
+!
+vlan 23 
+!
+vlan 27
+ name WebDevClient
+!
+vlan 31
+ name hhcis
+!
+vlan 36
+ name hhclient
+!
+vlan 39
+ name hhdmz
+!
+vlan 55
+ name client
+!
+vlan 58
+ name company
+!
+vlan 100
+ name vpngatewayhh
+!
+vlan 149
+ name veeambackupnet
+!
+vlan 181
+ name wlwtrans
+!
+vlan 182
+ name colttrans
+lldp run
+!
+interface GigabitEthernet0/1
+ switchport access vlan 36
+ mls qos trust dscp
+ spanning-tree portfast
+!
+interface GigabitEthernet0/2
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/3
+ switchport access vlan 27
+ spanning-tree portfast
+!
+interface GigabitEthernet0/4
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/5
+ switchport access vlan 27
+ spanning-tree portfast
+!
+interface GigabitEthernet0/6
+ description WLAN ABC-AP5-5
+ switchport trunk encapsulation dot1q
+ switchport trunk native vlan 31
+ switchport trunk allowed vlan 14,25,27,28,31,36,55,58
+ switchport mode trunk
+ mls qos trust dscp
+!
+interface GigabitEthernet0/7
+ switchport access vlan 36
+ spanning-tree portfast
+!
+interface GigabitEthernet0/8
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/9
+ switchport access vlan 36
+ spanning-tree portfast
+!
+interface GigabitEthernet0/10
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/11
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/12
+ switchport access vlan 17
+ spanning-tree portfast
+!
+interface GigabitEthernet0/13
+ switchport access vlan 27
+ spanning-tree portfast
+!
+interface GigabitEthernet0/14
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/15
+ switchport access vlan 36
+ spanning-tree portfast
+!
+interface GigabitEthernet0/16
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/17
+ switchport access vlan 36
+ spanning-tree portfast
+!
+interface GigabitEthernet0/18
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/19
+ switchport access vlan 27
+ spanning-tree portfast
+!
+interface GigabitEthernet0/20
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/21
+ switchport access vlan 36
+ spanning-tree portfast
+!
+interface GigabitEthernet0/22
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/23
+ switchport access vlan 36
+ spanning-tree portfast
+!
+interface GigabitEthernet0/24
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/25
+ switchport access vlan 36
+ spanning-tree portfast
+!
+interface GigabitEthernet0/26
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/27
+ switchport access vlan 27
+ spanning-tree portfast
+!
+interface GigabitEthernet0/28
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/29
+ switchport access vlan 36
+ spanning-tree portfast
+!
+interface GigabitEthernet0/30
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/31
+ switchport access vlan 36
+ spanning-tree portfast
+!
+interface GigabitEthernet0/32
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/33
+ switchport access vlan 27
+ spanning-tree portfast
+!
+interface GigabitEthernet0/34
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/35
+ switchport access vlan 36
+ spanning-tree portfast
+!
+interface GigabitEthernet0/36
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/37
+ switchport access vlan 36
+ spanning-tree portfast
+!
+interface GigabitEthernet0/38
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/39
+ switchport access vlan 3
+ spanning-tree portfast
+!
+interface GigabitEthernet0/40
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/41
+ switchport access vlan 3
+ spanning-tree portfast
+!
+interface GigabitEthernet0/42
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/43
+ switchport access vlan 36
+ spanning-tree portfast
+!
+interface GigabitEthernet0/44
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/45
+ switchport access vlan 36
+ spanning-tree portfast
+!
+interface GigabitEthernet0/46
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet0/47
+ switchport access vlan 36
+ spanning-tree portfast
+!
+interface GigabitEthernet0/48
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+ spanning-tree portfast disable
+ spanning-tree bpduguard disable
+ spanning-tree link-type point-to-point
+!
+interface GigabitEthernet0/49
+ description UPLINK to SW_4510_1 Port GigabitEthernet 3/3
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 10,14,17,20,27,55
+ switchport mode trunk
+ srr-queue bandwidth share 10 10 60 20
+ srr-queue bandwidth shape 10 0 0 0
+ queue-set 2
+ mls qos trust cos
+ auto qos trust 
+ spanning-tree portfast disable
+ spanning-tree bpduguard disable
+ spanning-tree link-type point-to-point
+!
+interface GigabitEthernet0/50
+ description UPLINK to SW_NVR2_V2 Port GigabitEthernet0/50
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 10,14,17,20,27,55
+ switchport mode trunk
+ srr-queue bandwidth share 10 10 60 20
+ srr-queue bandwidth shape 10 0 0 0
+ queue-set 2
+ mls qos trust cos
+ auto qos trust 
+ spanning-tree portfast disable
+ spanning-tree bpduguard disable
+ spanning-tree link-type point-to-point
+!
+interface GigabitEthernet0/51
+!
+interface GigabitEthernet0/52
+!
+interface Vlan1
+ no ip address
+!
+interface Vlan10
+ ip address 172.16.4.202 255.255.252.0
+ no ip route-cache
+ no ip mroute-cache
+!
+interface Vlan31
+ ip address 172.16.31.36 255.255.255.0
+!
+interface Vlan55
+ ip address 172.16.24.202 255.255.252.0
+!
+ip default-gateway 172.16.31.1
+ip classless
+ip http server
+ip http secure-server
+!
+ip sla enable reaction-alerts
+logging trap errors
+logging 172.16.4.23
+logging 172.16.4.154
+logging 172.16.24.50
+!
+snmp-server community Sw$iTch RW
+snmp-server community mo71ov14bl RO
+snmp-server packetsize 2048
+snmp-server location RZ
+snmp-server contact Marc Bloes -206
+snmp-server chassis-id 0x10
+snmp-server host 172.16.4.23 mo71ov14bl 
+snmp-server host 172.16.4.25 mo71ov14bl 
+snmp-server host 172.16.4.28 mo71ov14bl 
+snmp-server host 172.16.4.70 mo71ov14bl 
+!
+banner motd ^CCCCCCCC
+
+
+                    THIS DEVICE IS PART OF A
+                    ------------------------
+
+                        PRIVATE NETWORK
+                        ---------------
+
+
+         ************************************************
+         * Unauthorised access or use of this equipment *
+         *   is prohibited and constitutes an offence   *
+         *     under the Computer Misuse Act 1990.      *
+         *    If you are not authorised to use this     *
+         *     system, terminate this session now.      *
+         ************************************************
+^C
+alias exec c conf t
+alias exec s sh run
+!
+line con 0
+ exec-timeout 60 0
+ stopbits 1
+line vty 0 4
+ exec-timeout 15 0
+ privilege level 15
+ transport input ssh
+line vty 5 9
+ exec-timeout 15 0
+ privilege level 15
+line vty 10 15
+!
+ntp server 172.16.4.51
+end

@@ -42,9 +42,9 @@
 !Flash: Directory of flash:/
 !Flash:        drwx         192   Mar 8 1993 01:22:23 +01:00  c3560-ipservicesk9-mz.122-25.SEE2
 !Flash:        drwx         192  Apr 17 1994 11:11:32 +02:00  c3560-ipservicesk9-mz.122-55.SE
-!Flash:        -rwx       11631  Feb 11 2022 11:36:18 +01:00  config.text
+!Flash:        -rwx       11480   Nov 9 1993 12:52:39 +01:00  config.text
 !Flash:        -rwx         111   Mar 8 1993 01:22:23 +01:00  info
-!Flash:        -rwx        3834  Feb 11 2022 11:36:18 +01:00  private-config.text
+!Flash:        -rwx        3834   Nov 9 1993 12:52:39 +01:00  private-config.text
 !Flash:        -rwx                                           vlan.dat
 !Flash: 32514048 bytes total (6 MB free)
 !
@@ -55,7 +55,7 @@
 !Flash: nvram: -rw-           0                    <no date>  ifIndex-table
 !Flash: nvram: ----          36                    <no date>  persistent-data
 !Flash: nvram: ----        3834                    <no date>  private-config
-!Flash: nvram: -rw-       11631                    <no date>  startup-config
+!Flash: nvram: -rw-       11480                    <no date>  startup-config
 !Flash: nvram: 512 KB total (96% free)
 !
 !
@@ -229,8 +229,7 @@ boot-end-marker
 enable secret 5 $1$q1KY$yOqZE65cn78sAkjY4OtHS/
 !
 username cw2k secret 5 $1$CfLF$qLXbDHAaNrea9nl39DtxQ0
-username koltmann privilege 15 secret 5 $1$xG26$/xRY2FN99tl0HKEc1/BKM.
-username marwin secret 5 $1$d84y$OkRTiP5EN/2BtHF8PdlkR/
+username joern privilege 15 secret 5 $1$IT0x$XKgfuVffBDlLrkja03XKk1
 username mcshh privilege 15 secret 5 $1$uBgu$y.U1uLBSAcTPpgOBzd0ML.
 username mge privilege 15 secret 5 $1$.YQA$ezAJ1T47CZISQSSjrxHRj0
 username sadmin secret 5 $1$/f/H$51caZe4qMainoFp0YZhXD1
@@ -657,7 +656,7 @@ snmp-server community Sw$iTch RW
 snmp-server community mo71ov14bl RO
 snmp-server packetsize 2048
 snmp-server location RZ
-snmp-server contact Marc Bloes -206
+snmp-server contact Joern Oltmann Phone:040/25440280, Mail: joern.oltmann@visable.com
 snmp-server chassis-id 0x10
 snmp-server host 172.16.4.23 mo71ov14bl 
 snmp-server host 172.16.4.25 mo71ov14bl 
